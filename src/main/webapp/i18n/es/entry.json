@@ -1,0 +1,27 @@
+{
+  "App": {
+    "entry": {
+      "home": {
+        "title": "Entradas",
+        "createLabel": "Crear nueva Entrada",
+        "createOrEditLabel": "Crear o editar Entrada",
+        "notFound": "Entrada no encontrada"
+      },
+      "created": "Una nueva Entrada ha sido creada con el identificador {{ param }}",
+      "updated": "Una Entrada ha sido actualizada con el identificador {{ param }}",
+      "deleted": "Una Entrada ha sido eliminada con el identificador {{ param }}",
+      "delete": {
+        "question": "¿Seguro que quiere eliminar Entrada {{ id }}?"
+      },
+      "detail": {
+        "title": "Entrada"
+      },
+      "title": "Título",
+      "content": "Contenido",
+      "date": "Fecha",
+      "blog": "Blog",
+      "tag": "Tag",
+      "comment": "Comentario"
+    }
+  }
+}

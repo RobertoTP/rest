@@ -1,7 +1,7 @@
 {
   "home": {
-    "title": "Welcome, Java Hipster!",
-    "subtitle": "This is your homepage",
+    "title": "Welcome, This is your Blog!",
+    "subtitle": "Read, write and comment about your favourite themes",
     "logged": {
       "message": "You are logged in as user \"{{username}}\"."
     },
@@ -13,7 +13,7 @@
       "chat": "JHipster public chat room",
       "follow": "follow @java_hipster on Twitter"
     },
-    "like": "If you like JHipster, don't forget to give us a star on",
+    "like": "If you like this Blog, don't forget to give us a star on",
     "github": "GitHub"
   }
 }

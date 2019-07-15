@@ -7,6 +7,11 @@
       "jhipster-needle-menu-add-element": "JHipster will add additional menu entries here (do not translate!)",
       "entities": {
         "main": "Entities",
+        "blog": "Blog",
+        "entry": "Entry",
+        "tag": "Tag",
+        "comment": "Comment",
+        "comentar": "Comentar",
         "jhipster-needle-menu-add-entry": "JHipster will add additional entities here (do not translate!)"
       },
       "account": {
@@ -97,6 +102,8 @@
       "delete": "Delete",
       "edit": "Edit",
       "open": "Open",
+      "comentar": "Comentar",
+      "send": "Enviar",
       "save": "Save",
       "view": "View"
     },

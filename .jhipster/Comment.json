@@ -1,0 +1,32 @@
+{
+    "name": "Comment",
+    "fields": [
+        {
+            "fieldName": "comment",
+            "fieldType": "String",
+            "fieldValidateRules": [
+                "required",
+                "minlength"
+            ],
+            "fieldValidateRulesMinlength": 2
+        }
+    ],
+    "relationships": [
+        {
+            "relationshipType": "many-to-one",
+            "otherEntityName": "entry",
+            "otherEntityRelationshipName": "comment",
+            "relationshipName": "entry",
+            "otherEntityField": "title"
+        }
+    ],
+    "changelogDate": "20190630190241",
+    "entityTableName": "comment",
+    "dto": "no",
+    "pagination": "no",
+    "service": "no",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "clientRootFolder": "",
+    "applications": "*"
+}
