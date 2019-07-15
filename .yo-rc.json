@@ -1,0 +1,39 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "com.usc.blog",
+      "nativeLanguage": "es"
+    },
+    "jhipsterVersion": "6.1.2",
+    "applicationType": "monolith",
+    "baseName": "",
+    "packageName": "com.usc.blog",
+    "packageFolder": "com/usc/blog",
+    "serverPort": "8080",
+    "authenticationType": "jwt",
+    "cacheProvider": "no",
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "mysql",
+    "prodDatabaseType": "mysql",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": "eureka",
+    "buildTool": "gradle",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "MTg2MDg4OTkyNDc2OGZiYWE3MGEyOWE4NTYwN2VlMDAyZTljNTkyMTk3ZTI4YmNhNmUxOGZlYWIxMWQyZmFmMTdkYmE0M2FlMzRkZTc2MzNiNDljYjcxZWY5OGM2NzNkZGJjOTIzZDc5MDNkZGZkYmJjMzNiMWEzMDU3YTljODU=",
+    "useSass": true,
+    "clientPackageManager": "npm",
+    "clientFramework": "angularX",
+    "clientTheme": "cerulean",
+    "clientThemeVariant": "primary",
+    "testFrameworks": [],
+    "jhiPrefix": "jhi",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [],
+    "enableTranslation": true,
+    "nativeLanguage": "es",
+    "languages": ["es", "en"]
+  }
+}
