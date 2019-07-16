@@ -16,15 +16,15 @@
     <div class="table-responsive" *ngIf="blogs?.length > 0">
         <table class="table table-striped">
             <thead>
-            <tr>
-            <th><span jhiTranslate="global.field.id">ID</span></th>
-            <th><span jhiTranslate="App.blog.name">Name</span></th>
-            <th><span jhiTranslate="App.blog.handle">Handle</span></th>
-            <th><span jhiTranslate="App.blog.user">User</span></th>
+            <tr jhiSort [(predicate)]="predicate" [(ascending)]="reverse" [callback]="reset.bind(this)">
+            <th><span jhiTranslate="global.field.id">ID</span><fa-icon [icon]="'sort'"></fa-icon></th>
+            <th><span jhiTranslate="App.blog.name">Name</span><fa-icon [icon]="'sort'"></fa-icon></th>
+            <th><span jhiTranslate="App.blog.handle">Handle</span><fa-icon [icon]="'sort'"></fa-icon></th>
+            <th><span jhiTranslate="App.blog.user">User</span><fa-icon [icon]="'sort'"></fa-icon></th>
             <th></th>
             </tr>
             </thead>
-            <tbody>
+            <tbody infinite-scroll (scrolled)="loadPage(page + 1)" [infiniteScrollDisabled]="page >= links['last']" [infiniteScrollDistance]="0">
             <tr *ngFor="let blog of blogs ;trackBy: trackId">
                 <td><a [routerLink]="['/blog', blog.id, 'view' ]">{{blog.id}}</a></td>
                 <td>{{blog.name}}</td>
